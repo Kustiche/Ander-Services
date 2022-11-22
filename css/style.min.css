@@ -404,6 +404,19 @@ body {
   color: #0F95F6;
 }
 
+.button {
+  padding: 10px 40px;
+  border: 2px solid #FFFFFF;
+  border-radius: 100px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.button:hover {
+  background-color: #0F95F6;
+  border: 2px solid #0F95F6;
+}
+
 .btn-registration {
   padding: 10px 40px;
   background-color: #0F95F6;
@@ -4366,5 +4379,49 @@ body {
 }
 .software__text {
   color: #00255B;
+}
+
+.desktop {
+  padding: 195px 0;
+  background-image: url(../img/desktop/desktop-bg.jpg);
+}
+.desktop__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 690px;
+}
+.desktop__title {
+  margin-bottom: 30px;
+  color: #FFFFFF;
+}
+.desktop__text {
+  margin-bottom: 65px;
+}
+.desktop__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 415px;
+  width: 100%;
+}
+.desktop__price {
+  font-family: "Ubuntu-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
 }
 /*# sourceMappingURL=style.min.css.map */
