@@ -4256,7 +4256,11 @@ body {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 50px 65px;
+  margin-bottom: 50px;
+  gap: 0 65px;
+}
+.services__content:last-child {
+  margin-bottom: 0;
 }
 .services__card {
   display: -webkit-box;
