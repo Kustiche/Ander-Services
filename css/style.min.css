@@ -406,6 +406,9 @@ body {
 
 .button {
   padding: 10px 40px;
+  font-family: "Ubuntu-Bold", sans-serif;
+  font-weight: 700;
+  line-height: 21px;
   border: 2px solid #FFFFFF;
   border-radius: 100px;
   -webkit-transition: all 0.4s;
@@ -430,7 +433,7 @@ body {
 }
 .btn-registration:hover {
   background-color: #FFFFFF;
-  color: #000000;
+  color: #111111;
 }
 
 .title {
@@ -4251,7 +4254,7 @@ body {
   position: absolute;
   top: -87px;
   left: -65px;
-  background-image: url(../img/svg/contacts-decor.svg);
+  background-image: url(../img/svg/contacts-decor-left.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -4423,5 +4426,87 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
+}
+
+.advantage {
+  padding-top: 60px;
+  padding-bottom: 140px;
+  background-image: url(../img/advantage/advantage-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.advantage__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.advantage__contacts-decor {
+  position: absolute;
+  top: -359%;
+  right: -95px;
+  background-image: url(../img/svg/contacts-decor-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 211px;
+  height: 2171px;
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.advantage__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 65px;
+}
+.advantage__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 500px;
+  width: 100%;
+}
+.advantage__img {
+  margin-right: 30px;
+  width: 83px;
+  height: 120px;
+}
+.advantage__inner {
+  max-width: 385px;
+}
+.advantage__heading {
+  margin-bottom: 10px;
+  font-family: "Ubuntu-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+.advantage__text {
+  color: #0F95F6;
+}
+.advantage__link {
+  color: #111111;
+  border: 2px solid #111111;
+}
+.advantage__link:hover {
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.min.css.map */
